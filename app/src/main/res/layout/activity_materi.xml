@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clipToPadding="false"
+        android:background="#d1eeff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.design.widget.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_scrollFlags="scroll|enterAlways|snap"
+                android:clipToPadding="false">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/colorPrimary"
+                    android:elevation="5dp">
+
+                    <include layout="@layout/toolbar" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#d1eeff"
+                    android:layout_weight="1"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:id="@+id/tvJudul"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Materi"
+                        android:textColor="@color/colorSc2"
+                        android:textStyle="bold"
+                        android:textSize="24sp"
+                        android:paddingStart="10dp"/>
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="600dp"
+                            android:orientation="vertical"
+                            android:layout_marginBottom="70dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="140dp"
+                            android:layout_weight="1">
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                card_view:cardBackgroundColor="#fff"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                card_view:cardUseCompatPadding="true"
+                                android:onClick="materi1">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:layout_gravity="center"
+                                    android:padding="10dp">
+
+                                    <ImageView
+                                        android:layout_weight="1.3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/g3"
+                                        android:padding="10dp"/>
+
+                                    <TextView
+                                        android:layout_weight="1"
+                                        android:id="@+id/tvMateri"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="Gerak Melingkar"
+                                        android:gravity="start|center"
+                                        android:textColor="@color/colorSc2"
+                                        android:textSize="20sp"
+                                        android:paddingEnd="10dp"
+                                        android:layout_marginStart="-10dp"/>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="140dp"
+                            android:layout_weight="1">
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                card_view:cardBackgroundColor="#fff"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                card_view:cardUseCompatPadding="true"
+                                android:onClick="materi2">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:layout_gravity="center"
+                                    android:padding="10dp">
+
+                                    <ImageView
+                                        android:layout_weight="1.3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/g2"
+                                        android:padding="10dp"/>
+
+                                    <TextView
+                                        android:layout_weight="1"
+                                        android:id="@+id/tvMateri2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="Gerak Melingkar Beraturan (GMB)"
+                                        android:gravity="start|center"
+                                        android:textColor="@color/colorSc2"
+                                        android:textSize="20sp"
+                                        android:paddingEnd="10dp"
+                                        android:layout_marginStart="-10dp"/>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="140dp"
+                            android:layout_weight="1">
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                card_view:cardBackgroundColor="#fff"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                card_view:cardUseCompatPadding="true"
+                                android:onClick="materi3">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:layout_gravity="center"
+                                    android:padding="10dp">
+
+                                    <ImageView
+                                        android:layout_weight="1.3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/g1"
+                                        android:padding="10dp"/>
+
+                                    <TextView
+                                        android:layout_weight="1"
+                                        android:id="@+id/tvMateri3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="Gerak Melingkar Tidak Beraturan"
+                                        android:gravity="start|center"
+                                        android:textColor="@color/colorSc2"
+                                        android:textSize="20sp"
+                                        android:paddingEnd="10dp"
+                                        android:layout_marginStart="-10dp"/>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="140dp"
+                            android:layout_weight="1">
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                card_view:cardBackgroundColor="#fff"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                card_view:cardUseCompatPadding="true"
+                                android:onClick="videoPembelajaran">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:layout_gravity="center"
+                                    android:padding="10dp">
+
+                                    <ImageView
+                                        android:layout_weight="1.3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/video"
+                                        android:padding="10dp"/>
+
+                                    <TextView
+                                        android:layout_weight="1"
+                                        android:id="@+id/tvMateri4"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="Video Pembelajaran"
+                                        android:gravity="start|center"
+                                        android:textColor="@color/colorSc2"
+                                        android:textSize="20sp"
+                                        android:paddingEnd="10dp"
+                                        android:layout_marginStart="-10dp"/>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    </ScrollView>
+
+                </LinearLayout>
+
+            </android.support.design.widget.AppBarLayout>
+
+        </LinearLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="bottom|center"
+            android:elevation="6dp"
+            android:layout_marginEnd="10dp"
+            app:fabSize="normal"
+            android:onClick="menuUtama"
+            app:backgroundTint="#fff"
+            android:src="@drawable/menu"/>
+
+    </android.support.design.widget.CoordinatorLayout>
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clipToPadding="false"
+        android:background="#d1eeff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.design.widget.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_scrollFlags="scroll|enterAlways|snap"
+                android:clipToPadding="false">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/colorPrimary"
+                    android:elevation="5dp">
+
+                    <include layout="@layout/toolbar" />
+
+                </LinearLayout>
+
+                <com.uncopt.android.widget.text.justify.JustifiedTextView
+                    android:id="@+id/tvJudul"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pembahasan"
+                    android:background="#d1eeff"
+                    android:textColor="@color/colorSc2"
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="10dp"/>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#d1eeff"
+                        android:layout_weight="1"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp">
+                        <!--1-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                card_view:cardBackgroundColor="#fff"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                card_view:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center">
+
+                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                        android:id="@+id/tvSoal1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="1. Waktu yang diperlukan untuk menempuh satu putaran disebut ..."
+                                        android:textColor="@color/colorSc2"
+                                        android:textSize="16sp"
+                                        android:paddingStart="10dp"
+                                        android:paddingEnd="10dp"
+                                        android:paddingTop="10dp"
+                                        android:paddingBottom="10dp"/>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                        </LinearLayout>
+                        <com.uncopt.android.widget.text.justify.JustifiedTextView
+                            android:id="@+id/tvBahas1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Jawab: Periode"
+                            android:textColor="@color/colorSc2"
+                            android:textSize="16sp"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp"/>
+
+                        <!--2-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_marginTop="20dp">
+
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                card_view:cardBackgroundColor="#fff"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                card_view:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center">
+
+                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                        android:id="@+id/tvSoal2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="2. Sebuah benda yang melakukan gerak melingkar beraturan memiliki ..."
+                                        android:textColor="@color/colorSc2"
+                                        android:textSize="16sp"
+                                        android:paddingStart="10dp"
+                                        android:paddingEnd="10dp"
+                                        android:paddingTop="10dp"
+                                        android:paddingBottom="10dp"/>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                        </LinearLayout>
+                        <com.uncopt.android.widget.text.justify.JustifiedTextView
+                            android:id="@+id/tvBahas2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Jawab: Kelajuan Tetap"
+                            android:textColor="@color/colorSc2"
+                            android:textSize="16sp"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp"/>
+
+                        <!--3-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_marginTop="20dp">
+
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                card_view:cardBackgroundColor="#fff"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                card_view:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center">
+
+                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                        android:id="@+id/tvSoal3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="3. Sebuah benda yang mengalami gerak melingkar beraturan, kecepatannya tergantung pada ..."
+                                        android:textColor="@color/colorSc2"
+                                        android:textSize="16sp"
+                                        android:paddingStart="10dp"
+                                        android:paddingEnd="10dp"
+                                        android:paddingTop="10dp"
+                                        android:paddingBottom="10dp"/>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                        </LinearLayout>
+                        <com.uncopt.android.widget.text.justify.JustifiedTextView
+                            android:id="@+id/tvBahas3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Jawab: Periode dan jari-jari lintasan"
+                            android:textColor="@color/colorSc2"
+                            android:textSize="16sp"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp"/>
+
+                        <!--4-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_marginTop="20dp">
+
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                card_view:cardBackgroundColor="#fff"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                card_view:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center">
+
+                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                        android:id="@+id/tvSoal4"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="4. Jika sebuah roda katrol berputar 60 putaran tiap dua menit, maka frekuensi dan kecepatan sudut roda adalah ..."
+                                        android:textColor="@color/colorSc2"
+                                        android:textSize="16sp"
+                                        android:paddingStart="10dp"
+                                        android:paddingEnd="10dp"
+                                        android:paddingTop="10dp"
+                                        android:paddingBottom="10dp"/>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                        </LinearLayout>
+                        <com.uncopt.android.widget.text.justify.JustifiedTextView
+                            android:id="@+id/tvBahas4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Jawab:\nf = n/t = 60/120 = 0,5 Hz\nω = 2πf = π = 3,14 rad/s"
+                            android:textColor="@color/colorSc2"
+                            android:textSize="16sp"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp"/>
+
+                        <!--5-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_marginTop="20dp">
+
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                card_view:cardBackgroundColor="#fff"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                card_view:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center">
+
+                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                        android:id="@+id/tvSoal5"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="5. Sebuah kipas angin berputar sebanyak1.200 tiap 30 sekon. Periode dan frekuensi putaran kipas angin tersebut adalah ..."
+                                        android:textColor="@color/colorSc2"
+                                        android:textSize="16sp"
+                                        android:paddingStart="10dp"
+                                        android:paddingEnd="10dp"
+                                        android:paddingTop="10dp"
+                                        android:paddingBottom="10dp"/>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                        </LinearLayout>
+                        <com.uncopt.android.widget.text.justify.JustifiedTextView
+                            android:id="@+id/tvBahas5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Jawab:\nT = t/n = 30/1200 =0,025 s\nF = n/t = 1200/30 = 40 Hz"
+                            android:textColor="@color/colorSc2"
+                            android:textSize="16sp"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp"/>
+
+                        <!--6-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_marginTop="20dp">
+
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                card_view:cardBackgroundColor="#fff"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                card_view:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center">
+
+                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                        android:id="@+id/tvSoal6"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="6. Dalam waktu 0,5 sekon, sebuah benda menempuh sudut ½ π. Kecepatan sudut benda tersebut adalah ... rad/s."
+                                        android:textColor="@color/colorSc2"
+                                        android:textSize="16sp"
+                                        android:paddingStart="10dp"
+                                        android:paddingEnd="10dp"
+                                        android:paddingTop="10dp"
+                                        android:paddingBottom="10dp"/>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                        </LinearLayout>
+                        <com.uncopt.android.widget.text.justify.JustifiedTextView
+                            android:id="@+id/tvBahas6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Jawab: ω = Ө/t = ½ π / 0,5 = π"
+                            android:textColor="@color/colorSc2"
+                            android:textSize="16sp"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp"/>
+
+                        <!--7-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_marginTop="20dp">
+
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                card_view:cardBackgroundColor="#fff"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                card_view:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center">
+
+                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                        android:id="@+id/tvSoal7"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="7. Sebuah roda berputar dengan kelajuan linear 1,4 m/s. Jari-jari roda tersebut 7 cm. Waktu yang dibutuhkan untuk menempuh satu putaran penuh yaitu ..."
+                                        android:textColor="@color/colorSc2"
+                                        android:textSize="16sp"
+                                        android:paddingStart="10dp"
+                                        android:paddingEnd="10dp"
+                                        android:paddingTop="10dp"
+                                        android:paddingBottom="10dp"/>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                        </LinearLayout>
+                        <com.uncopt.android.widget.text.justify.JustifiedTextView
+                            android:id="@+id/tvBahas7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Diketahui:\nv = 1,4 m/s\nr = 7 cm = 0,07 m\n\nDitanya: T (periode)\n\nPenyelesaian:\nω = v / r = 1,4 / 0,07 = 20 rad /s\nω = 2π / T\nT = 20 / 2π = 1 / 3,14 sekon"
+                            android:textColor="@color/colorSc2"
+                            android:textSize="16sp"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp"/>
+
+                        <!--8-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_marginTop="20dp">
+
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                card_view:cardBackgroundColor="#fff"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                card_view:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center">
+
+                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                        android:id="@+id/tvSoal8"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="8. Seseorang memutar sebuah benda dengan kecepatan awal 4 rad/s. Benda tersebut diputar dengan percepatan sudut 0,5 rad/s² Kecepatan benda pada sekon ke-empat adalah ... rad/s."
+                                        android:textColor="@color/colorSc2"
+                                        android:textSize="16sp"
+                                        android:paddingStart="10dp"
+                                        android:paddingEnd="10dp"
+                                        android:paddingTop="10dp"
+                                        android:paddingBottom="10dp"/>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                        </LinearLayout>
+                        <com.uncopt.android.widget.text.justify.JustifiedTextView
+                            android:id="@+id/tvBahas8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Jawab: ωt = ωo + α.t = 4 + 0,5 . 4 = 4 + 2 = 6"
+                            android:textColor="@color/colorSc2"
+                            android:textSize="16sp"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp"/>
+
+                        <!--9-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_marginTop="20dp">
+
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                card_view:cardBackgroundColor="#fff"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                card_view:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center">
+
+                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                        android:id="@+id/tvSoal9"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="9. Arus sungai dengan kelajuan 18,94 m/s digunakan untuk memutar kincir air. Diameter kincir air tersebut adalah 120 cm. Dalam 1 menit, kincir air akan berputar sebanyak ... kali."
+                                        android:textColor="@color/colorSc2"
+                                        android:textSize="16sp"
+                                        android:paddingStart="10dp"
+                                        android:paddingEnd="10dp"
+                                        android:paddingTop="10dp"
+                                        android:paddingBottom="10dp"/>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                        </LinearLayout>
+                        <com.uncopt.android.widget.text.justify.JustifiedTextView
+                            android:id="@+id/tvBahas9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Jawab:\nω = v / r = 18,94 / 0,6\nω = Ө/t\nω . t = Ө\nӨ = (18,94/12) . 60 rad = (18,94/0,6) . 60/ 2π = 301,6 putaran"
+                            android:textColor="@color/colorSc2"
+                            android:textSize="16sp"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp"/>
+
+                        <!--10-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_marginTop="20dp">
+
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                card_view:cardBackgroundColor="#fff"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                card_view:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center">
+
+                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                        android:id="@+id/tvSoal10"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="10. Sebuah benda mengalami gerak melingkar beraturan dengan jari-jari lintasan 1 m. Jika dalam waktu 10 s mengalami perpindahan sudut sebesar 20 putaran, maka periode gerak benda itu adalah ..."
+                                        android:textColor="@color/colorSc2"
+                                        android:textSize="16sp"
+                                        android:paddingStart="10dp"
+                                        android:paddingEnd="10dp"
+                                        android:paddingTop="10dp"
+                                        android:paddingBottom="10dp"/>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                        </LinearLayout>
+                        <com.uncopt.android.widget.text.justify.JustifiedTextView
+                            android:id="@+id/tvBahas10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Jawab: T = t/n = 10/20 = 0,5 s"
+                            android:textColor="@color/colorSc2"
+                            android:textSize="16sp"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp"
+                            android:layout_marginBottom="100dp"/>
+
+
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+            </android.support.design.widget.AppBarLayout>
+
+        </LinearLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="bottom|center"
+            android:elevation="6dp"
+            android:layout_marginEnd="10dp"
+            app:fabSize="normal"
+            android:onClick="menuUtama"
+            app:backgroundTint="#fff"
+            android:src="@drawable/menu"/>
+
+    </android.support.design.widget.CoordinatorLayout>
+</android.support.v4.widget.DrawerLayout>

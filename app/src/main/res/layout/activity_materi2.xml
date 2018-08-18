@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clipToPadding="false"
+        android:background="#d1eeff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.design.widget.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_scrollFlags="scroll|enterAlways|snap"
+                android:clipToPadding="false">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/colorPrimary"
+                    android:elevation="5dp">
+
+                    <include layout="@layout/toolbar" />
+
+                </LinearLayout>
+
+                <com.uncopt.android.widget.text.justify.JustifiedTextView
+                    android:id="@+id/tvJudul"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gerak Melingkar Beraturan (GMB)"
+                    android:background="#d1eeff"
+                    android:textColor="@color/colorSc2"
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="10dp"/>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#d1eeff"
+                        android:layout_weight="1"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp">
+                        <!--1-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                card_view:cardBackgroundColor="#fff"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                card_view:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center">
+
+                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                        android:id="@+id/tvSoal1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="Gerak melingkar beraturan yaitu gerak benda yang menempuh lintasan melingkar dengan kelajuan (besar kecepatan) tetap. Pada gerak melingkar terdapat besaran-besaran yang dijelaskan pada uraian berikut."
+                                        android:textColor="@color/colorSc2"
+                                        android:textSize="16sp"
+                                        android:paddingStart="10dp"
+                                        android:paddingEnd="10dp"
+                                        android:paddingTop="10dp"
+                                        android:paddingBottom="10dp"/>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                        </LinearLayout>
+
+                        <!--2-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_marginTop="20dp">
+
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                card_view:cardBackgroundColor="#fff"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                card_view:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center">
+
+                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                        android:id="@+id/tvSoal2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="a. Perpindahan Linear dan Perpindahan Sudut"
+                                        android:textColor="@color/colorSc2"
+                                        android:textSize="16sp"
+                                        android:paddingStart="10dp"
+                                        android:paddingEnd="10dp"
+                                        android:paddingTop="10dp"
+                                        android:paddingBottom="10dp"/>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                        </LinearLayout>
+                        <com.uncopt.android.widget.text.justify.JustifiedTextView
+                            android:id="@+id/tvBahas2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Setiap partikel pada benda yang berpusat akan bergerak dalam suatu lingkaran yang berpusat pada porosnya. Hubungan antara perpindahan linear dengan perpindahan sudut dituliskan:"
+                            android:textColor="@color/colorSc2"
+                            android:textSize="16sp"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp"/>
+
+                        <!--3-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                card_view:cardBackgroundColor="#fff"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                card_view:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center">
+
+                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                        android:id="@+id/tvSoal3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="∆θ=∆X/R atau ∆X=R∆θ"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/colorSc2"
+                                        android:textSize="16sp"
+                                        android:paddingStart="10dp"
+                                        android:paddingEnd="10dp"
+                                        android:paddingTop="10dp"
+                                        android:paddingBottom="10dp"/>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                        </LinearLayout>
+                        <com.uncopt.android.widget.text.justify.JustifiedTextView
+                            android:id="@+id/tvBahas3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Keterangan:\n∆θ = perpindahan sudut (rad)\n∆x = perpindahan linear (m)\nR = Jari-jari (m)"
+                            android:textColor="@color/colorSc2"
+                            android:textSize="16sp"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp"
+                            android:layout_marginBottom="100dp"/>
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+            </android.support.design.widget.AppBarLayout>
+
+        </LinearLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="bottom|center"
+            android:elevation="6dp"
+            android:layout_marginEnd="10dp"
+            app:fabSize="normal"
+            android:onClick="menuUtama"
+            app:backgroundTint="#fff"
+            android:src="@drawable/menu"/>
+
+    </android.support.design.widget.CoordinatorLayout>
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clipToPadding="false"
+        android:background="#d1eeff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.design.widget.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_scrollFlags="scroll|enterAlways|snap"
+                android:clipToPadding="false">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/colorPrimary"
+                    android:elevation="5dp">
+
+                    <include layout="@layout/toolbar" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#d1eeff"
+                    android:paddingTop="20dp"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp">
+                    <com.uncopt.android.widget.text.justify.JustifiedTextView
+                        android:id="@+id/tvBiodata"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Biodata"
+                        android:textColor="@color/colorSc2"
+                        android:textStyle="bold"
+                        android:textSize="24sp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:paddingTop="30dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_weight="2">
+
+                            <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                android:id="@+id/tvNama"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:text="Nama"
+                                android:textColor="@color/colorSc2"
+                                android:textStyle="bold"
+                                android:textSize="20sp"/>
+                            <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                android:id="@+id/tvNpm"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:text="NPM"
+                                android:textColor="@color/colorSc2"
+                                android:textStyle="bold"
+                                android:textSize="20sp"/>
+                            <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                android:id="@+id/tvJurusan"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:text="Jurusan"
+                                android:textColor="@color/colorSc2"
+                                android:textStyle="bold"
+                                android:textSize="20sp"/>
+                            <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                android:id="@+id/tvFakultas"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:text="Fakultas"
+                                android:textColor="@color/colorSc2"
+                                android:textStyle="bold"
+                                android:textSize="20sp"/>
+                            <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                android:id="@+id/tvUniversitas"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:text="Universitas"
+                                android:textColor="@color/colorSc2"
+                                android:textStyle="bold"
+                                android:textSize="20sp"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_weight="1">
+                            <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                android:id="@+id/tvNamaIsi"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:text=": Neni Apriani"
+                                android:textColor="@color/colorSc2"
+                                android:textStyle="bold"
+                                android:textSize="20sp"/>
+                            <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                android:id="@+id/tvNpmIsi"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:text=": 1311090136"
+                                android:textColor="@color/colorSc2"
+                                android:textStyle="bold"
+                                android:textSize="20sp"/>
+                            <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                android:id="@+id/tvJurusanIsi"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:text=": Pendidikan Fisika"
+                                android:textColor="@color/colorSc2"
+                                android:textStyle="bold"
+                                android:textSize="20sp"/>
+                            <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                android:id="@+id/tvFakultasIsi"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:text=": Tarbiyah dan Keguruan"
+                                android:textColor="@color/colorSc2"
+                                android:textStyle="bold"
+                                android:textSize="20sp"/>
+                            <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                android:id="@+id/tvUniversitasIsi"
+                                android:layout_width="match_parent"
+                                android:layout_height="25dp"
+                                android:text=": UIN Radin Intan"
+                                android:textColor="@color/colorSc2"
+                                android:textStyle="bold"
+                                android:textSize="20sp"/>
+                            <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                android:id="@+id/tvUniversitasIsi2"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:text="  Lampung"
+                                android:textColor="@color/colorSc2"
+                                android:textStyle="bold"
+                                android:textSize="20sp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+            </android.support.design.widget.AppBarLayout>
+
+        </LinearLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="bottom|center"
+            android:elevation="6dp"
+            android:layout_marginEnd="10dp"
+            app:fabSize="normal"
+            android:onClick="menuUtama"
+            app:backgroundTint="#fff"
+            android:src="@drawable/menu"/>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</android.support.v4.widget.DrawerLayout>
