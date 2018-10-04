@@ -11,20 +11,15 @@ import com.wibudev.gerakmelingkar.R;
 
 public class MenuActivity extends AppCompatActivity {
 
-    private TextView tvPendahuluan;
-    private TextView tvMateri;
-    private TextView tvEvaluasi;
-    private TextView tvDaftarPustaka;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
         Typeface custom_font = Typeface.createFromAsset(getAssets(),  "fonts/font.ttf");
-        tvPendahuluan = findViewById(R.id.tvPendahuluan);
-        tvMateri = findViewById(R.id.tvMateri);
-        tvEvaluasi = findViewById(R.id.tvEvaluasi);
-        tvDaftarPustaka = findViewById(R.id.tvDaftarPustaka);
+        TextView tvPendahuluan = findViewById(R.id.tvPendahuluan);
+        TextView tvMateri = findViewById(R.id.tvMateri);
+        TextView tvEvaluasi = findViewById(R.id.tvEvaluasi);
+        TextView tvDaftarPustaka = findViewById(R.id.tvDaftarPustaka);
         tvPendahuluan.setTypeface(custom_font);
         tvMateri.setTypeface(custom_font);
         tvEvaluasi.setTypeface(custom_font);

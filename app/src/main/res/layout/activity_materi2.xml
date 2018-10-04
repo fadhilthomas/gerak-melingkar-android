@@ -86,7 +86,7 @@
                                         android:id="@+id/tvSoal1"
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:text="Gerak melingkar beraturan yaitu gerak benda yang menempuh lintasan melingkar dengan kelajuan (besar kecepatan) tetap. Pada gerak melingkar terdapat besaran-besaran yang dijelaskan pada uraian berikut."
+                                        android:text="Jika dinding rumah atau sekolah kalian terdapat jam analog, coba kalian amati gerak tiga jenis jarum jam analog tersebut yaitu jarum detik, jarum menit dan jarum jam. Jarum detik selalu bergerak menempuh sudut 360o selama 60 sekon atau menempuh 6o selama satu detik. Jarum menit selalu menempuh sudut 360o dalam waktu 60 menit atau menempuh 6o selama satu menit. Sedangkan jarum jam selalu menempuh sudut 360o dalam waktu 24 jam."
                                         android:textColor="@color/colorSc2"
                                         android:textSize="16sp"
                                         android:paddingStart="10dp"
@@ -98,15 +98,16 @@
 
                             </android.support.v7.widget.CardView>
 
-                        </LinearLayout>
-
-                        <!--2-->
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:orientation="vertical"
-                            android:layout_marginTop="20dp">
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:scaleType="fitStart"
+                                android:layout_gravity="center"
+                                android:src="@drawable/beraturan1"/>
 
                             <android.support.v7.widget.CardView
                                 xmlns:card_view="http://schemas.android.com/apk/res-auto"
@@ -129,7 +130,7 @@
                                         android:id="@+id/tvSoal2"
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:text="a. Perpindahan Linear dan Perpindahan Sudut"
+                                        android:text="Di dalam kinematika, contoh gerakan ketiga jarum pada jam analog di atas dinamakan gerak melingkar beraturan atau disingkat GMB. Tahukah kalian apa itu gerak lurus beraturan dan bagaimana sifat-sifatnya? Untuk menjawab pertanyaan tersebut, silahkan kalian simak secara seksama penjelasan-penjelasan berikut ini.\n\n\nPengertian Gerak Melingkar Beraturan\n\nGerak melingkar merupakan gerak suatu benda yang lintasannya berupa lingkaran. Sama halnya dengan gerak lurus, pada gerak melingkar kita juga mengenal yang namanya gerak melingkar beraturan (GMB) dan gerak melingkar berubah beraturan (GMBB). Untuk gerak melingkar beraturan memiliki dua pengertian sebagai berikut.\n\nPertama, suatu benda dikatakan bergerak melingkar beraturan apabila selama benda tersebut bergerak melingkar, kecepatan linear selalu konstan atau kecepatan linear setiap bagian benda selalu konstan. Kedua, benda dikatakan bergerak melingkar beraturan jika kecepatan sudut benda tersebut selalu konstan baik arah maupun nilainya. Dengan demikian dapat kita simpulkan definisi dari gerak melingkar beraturan sebagai berikut\n\nGerak melingkar beraturan atau GMB adalah gerak suatu benda pada lintasan yang berbentuk lingkaran dengan besar kecepatan linear (tangensial) tetap serta besar dan arah kecepatan sudut (anguler) juga tetap di setiap titik lingkaran.\n\nYang perlu digarisbawahi dari definisi gerak melingkar beraturan di atas adalah bahwa besar kecepatan tangensial tetap, tetapi arahnya tidak tetap alias selalu berubah-ubah karena kecepatan linear arahnya selalu menyinggung lingkaran dan tegak lurus dengan jari-jari. Sedangkan untuk kecepatan sudut, besar dan arahnya selalu tetap pada GMB. Yang dimaksud arah kecepatan sudut tetap yaitu searah putaran jarum jam atau berlawanan.\n\n\nCiri-Ciri Gerak Melingkar Beraturan\n\nMasih ingatkah kalian dengan gerak lurus beraturan (GLB)? Syarat-syarat atau karakteristik GLB tersebut dapat kalian gunakan sebagai acuan dalam memahami gerak melingkar beraturan (GMB). Berikut ini adalah beberapa sifat atau karakteristik benda yang bergerak melingkar beraturan.\n\n1. Lintasan berbentuk lingkaran\n\n2. Dalam selang waktu yang sama, besar posisi sudut (θ) tetap\n\n3. Nilai/besar kecepatan linear tetap tetapi arahnya berubah (v = konstan)\n\n4. Nilai/besar dan arah kecepatan sudut tetap (ω = konstan)\n\n5. Nilai/besar percepatan tangensial sama dengan nol (at = 0)\n\n6. Nilai/besar percepatan sudut sama dengan nol (α = 0)\n\n7. Nilai/besar dan arah percepatan sentripetal tetap (as = konstan)\n\n8. Nilai/besar percepatan total sama dengan percepatan sentripetal (atot¬ = as)\n\n\nCiri-ciri gerak melingkar beraturan nomor 4 – 8 sebenarnya adalah hasil pengembangan ciri-ciri nomor 1 – 3. Karena pada gerak melingkar beraturan pada dasarnya hanya memiliki tiga karakteristik utama, yaitu lintasan yang berbentuk lingkaran, besar kecepatan linear (tangensial) tetap serta besar dan arah kecepatan sudut (anguler) yang tetap. Namun pengembangan ciri-ciri tersebut kadang diperlukan untuk menyelesaikan persoalan fisika yang berhubungan dengan gerak melingkar.\n\n\nRumus Pada Gerak Melingkar Beraturan\n\nDari sifat atau karakteristik gerak melingkar beraturan (GMB) nomor 4 di atas, maka kita dapat menurunkan persamaan sebagai berikut:"
                                         android:textColor="@color/colorSc2"
                                         android:textSize="16sp"
                                         android:paddingStart="10dp"
@@ -141,23 +142,16 @@
 
                             </android.support.v7.widget.CardView>
 
-                        </LinearLayout>
-                        <com.uncopt.android.widget.text.justify.JustifiedTextView
-                            android:id="@+id/tvBahas2"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Setiap partikel pada benda yang berpusat akan bergerak dalam suatu lingkaran yang berpusat pada porosnya. Hubungan antara perpindahan linear dengan perpindahan sudut dituliskan:"
-                            android:textColor="@color/colorSc2"
-                            android:textSize="16sp"
-                            android:paddingStart="10dp"
-                            android:paddingEnd="10dp"/>
-
-                        <!--3-->
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:orientation="vertical">
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:src="@drawable/beraturan2"
+                                android:scaleType="fitStart"
+                                android:layout_gravity="center"/>
 
                             <android.support.v7.widget.CardView
                                 xmlns:card_view="http://schemas.android.com/apk/res-auto"
@@ -180,8 +174,7 @@
                                         android:id="@+id/tvSoal3"
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:text="∆θ=∆X/R atau ∆X=R∆θ"
-                                        android:textAlignment="center"
+                                        android:text="Jika kita perhatikan, persamaan posisi sudut pada gerak melingkar beraturan di atas mirip dengan persamaan jarak pada gerak lurus beraturan yaitu sebagai berikut:"
                                         android:textColor="@color/colorSc2"
                                         android:textSize="16sp"
                                         android:paddingStart="10dp"
@@ -193,17 +186,239 @@
 
                             </android.support.v7.widget.CardView>
 
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:src="@drawable/beraturan3"
+                                android:scaleType="fitStart"
+                                android:layout_gravity="center"/>
+
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                card_view:cardBackgroundColor="#fff"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                card_view:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center">
+
+                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                        android:id="@+id/tvSoal4"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="Dengan demikian dapat dikatakan bahwa rumus pada gerak melingkar beraturan (GMB) itu sama dengan rumus pada gerak lurus beraturan hanya saja pada gerak melingkar beraturan, besaran-besaran linear pada gerak lurus beraturan kita ganti dengan besaran-besaran sudut (anguler).  Jarak (s) kita ganti dengan posisi sudut (θ) dan kecepatan linear (v) kita ganti dengan kecepatan sudut (ω). Konsep ini juga berlaku pada gerak melingkar berubah beraturan (GMBB).\n\n\nMacam-Macam Grafik pada Gerak Melingkar Beraturan\n\nKita tahu bahwa dalam gerak melingkar terdapat dua jenis besaran fisika yang mempengaruhi gerak benda, yaitu besaran linear dan besaran sudut. Oleh sebab itu, grafik gerak melingkar ada banyak jenisnya diantaranya grafik hubungan panjang lintasan terhadap waktu (grafik s-t), grafik posisi sudut terhadap waktu (grafik θ-t), grafik kecepatan linear terhadap waktu (grafik v-t), grafik kecepatan sudut terhadap waktu (grafik ω-t), grafik percepatan tangensial terhadap waktu (grafik at-t) dan grafik percepatan sudut terhadap waktu (grafik α-t).\n\nTetapi perlu kalian ketahui bahwa grafik pada gerak melingkar hanya bisa mendeskripsikan nilai besaran. Karena seperti yang kita tahu bahwa besaran vektor pada gerak melingkar seperti kecepatan linear arahnya selalu berubah-ubah, kadang ke atas, ke bawah, ke kanan, atau ke kiri. Sehingga untuk arah besaran, grafik kurang efektif untuk menggambarkan arah gerak. Lalu bagaimana bentuk grafik GMB? Secara umum bentuk kurva gerak melingkar sama dengan gerak lurus.\n\n\n1. Grafik s-t dan Grafik θ-t pada Gerak Melingkar Beraturan"
+                                        android:textColor="@color/colorSc2"
+                                        android:textSize="16sp"
+                                        android:paddingStart="10dp"
+                                        android:paddingEnd="10dp"
+                                        android:paddingTop="10dp"
+                                        android:paddingBottom="10dp"/>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:src="@drawable/beraturan4"
+                                android:scaleType="fitStart"
+                                android:layout_gravity="center"/>
+
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                card_view:cardBackgroundColor="#fff"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                card_view:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center">
+
+                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                        android:id="@+id/tvSoal5"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="Coba kalian perhatikan kurva grafik s-t dengan grafik θ-t di atas. Kenapa kemiringan kurva θ-t lebih rendah dibandingkan dengan kemiringan kurva grafik s-t? Kalian tentunya sudah tahu rumus hubungan besaran linear dangan besaran sudut. rumus panjang lintasan adalah s = θR sehingga θ = s/R oleh karena itu dalam selang waktu yang sama (t) panjang lintasan yang ditempuh benda lebih besar daripada sudut tempuhnya.\n\n\n2. Grafik v-t dan Grafik ω-t pada Gerak Melingkar Beraturan"
+                                        android:textColor="@color/colorSc2"
+                                        android:textSize="16sp"
+                                        android:paddingStart="10dp"
+                                        android:paddingEnd="10dp"
+                                        android:paddingTop="10dp"
+                                        android:paddingBottom="10dp"/>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:src="@drawable/beraturan5"
+                                android:scaleType="fitStart"
+                                android:layout_gravity="center"/>
+
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                card_view:cardBackgroundColor="#fff"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                card_view:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center">
+
+                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                        android:id="@+id/tvSoal6"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="Karena kecepatan linear (v) dan kecepatan sudut (ω) dalam gerak melingkar beraturan besarnya adalah tetap, maka bentuk kurva pada grafik adalah lurus horizontal sejajar sumbu t. Lalu jika kalian perhatikan kurva kedua grafik di atas, kurva v posisinya lebih tinggi dari pada kurva ω, hal ini disebabkan karena rumus v = ωR sehingga ω = v/R oleh karena itu dalam gerak melingkar besar kecepatan linear (tangensial) akan lebih besar dari kecepatan sudut (anguler).\n\n\n3. Grafik at-t dan Grafik α-t pada Gerak Melingkar Beraturan"
+                                        android:textColor="@color/colorSc2"
+                                        android:textSize="16sp"
+                                        android:paddingStart="10dp"
+                                        android:paddingEnd="10dp"
+                                        android:paddingTop="10dp"
+                                        android:paddingBottom="10dp"/>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:src="@drawable/beraturan6"
+                                android:scaleType="fitStart"
+                                android:layout_gravity="center"/>
+
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                card_view:cardBackgroundColor="#fff"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                card_view:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center">
+
+                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                        android:id="@+id/tvSoal7"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="Telah jelas bahwa dalam gerak melingkar beraturan besar kecepatan linear dan kecepatan sudutnya adalah tetap maka besar percepatan linear dan percepatan sudutnya adalah nol. Karena percepatan hanya ada jika terdapat perubahan kecepatan dengan kata lain jika kecepatan tetap maka perubahan kecepatan sama dengan nol.\n\n\nContoh Soal GMB dan Pembahasannya\n\nContoh Soal 1\n\nSebuah partikel bergerak melingkar beraturan dengan posisi sudut awal 5 rad. Jika partikel bergerak dengan kecepatan sudut 10 rad/s, tentukan posisi sudut akhir pada saat t = 5 s."
+                                        android:textColor="@color/colorSc2"
+                                        android:textSize="16sp"
+                                        android:paddingStart="10dp"
+                                        android:paddingEnd="10dp"
+                                        android:paddingTop="10dp"
+                                        android:paddingBottom="10dp"/>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:src="@drawable/beraturan7"
+                                android:scaleType="fitStart"
+                                android:layout_gravity="center"/>
+
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                card_view:cardBackgroundColor="#fff"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                card_view:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center">
+
+                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                        android:id="@+id/tvSoal8"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="Contoh Soal 2\n\nSebuah roda berputar dengan kecepatan sudut tetap 120 rpm. Jari-jari roda 50 cm. Maka tentukanlah :\n\na. sudut yang ditempuh roda dalam waktu 5 sekon\n\nb. panjang lintasan yang dilalui benda yang berada di tepi roda dalam waktu 5 detik\n\nc. kecepatan linear benda yang berada di tepi roda\n\n"
+                                        android:textColor="@color/colorSc2"
+                                        android:textSize="16sp"
+                                        android:paddingStart="10dp"
+                                        android:paddingEnd="10dp"
+                                        android:paddingTop="10dp"
+                                        android:paddingBottom="10dp"/>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:src="@drawable/beraturan8"
+                                android:scaleType="fitStart"
+                                android:layout_gravity="center"
+                                android:layout_marginBottom="80dp"/>
+
                         </LinearLayout>
-                        <com.uncopt.android.widget.text.justify.JustifiedTextView
-                            android:id="@+id/tvBahas3"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Keterangan:\n∆θ = perpindahan sudut (rad)\n∆x = perpindahan linear (m)\nR = Jari-jari (m)"
-                            android:textColor="@color/colorSc2"
-                            android:textSize="16sp"
-                            android:paddingStart="10dp"
-                            android:paddingEnd="10dp"
-                            android:layout_marginBottom="100dp"/>
 
                     </LinearLayout>
 

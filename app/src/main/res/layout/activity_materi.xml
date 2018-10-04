@@ -194,7 +194,7 @@
                                         android:id="@+id/tvMateri3"
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:text="Gerak Melingkar Tidak Beraturan"
+                                        android:text="Gerak Melingkar Berubah Beraturan"
                                         android:gravity="start|center"
                                         android:textColor="@color/colorSc2"
                                         android:textSize="20sp"

@@ -43,7 +43,7 @@
                         android:id="@+id/tvBiodata"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Biodata"
+                        android:text="Biografi"
                         android:textColor="@color/colorSc2"
                         android:textStyle="bold"
                         android:textSize="24sp"/>
@@ -57,7 +57,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:orientation="vertical"
-                            android:layout_weight="2">
+                            android:layout_weight="1.3">
 
                             <com.uncopt.android.widget.text.justify.JustifiedTextView
                                 android:id="@+id/tvNama"
@@ -98,9 +98,29 @@
                                 android:text="Universitas"
                                 android:textColor="@color/colorSc2"
                                 android:textStyle="bold"
+                                android:textSize="20sp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginBottom="20dp"/>
+                            <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                android:id="@+id/tvPembimbing1"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:text="Pembimbing 1"
+                                android:textColor="@color/colorSc2"
+                                android:textStyle="bold"
+                                android:textSize="20sp"/>
+                            <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                android:id="@+id/tvPembimbing2"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:text="Pembimbing 2"
+                                android:textColor="@color/colorSc2"
+                                android:textStyle="bold"
                                 android:textSize="20sp"/>
 
+
                         </LinearLayout>
+                        
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
@@ -110,7 +130,7 @@
                                 android:id="@+id/tvNamaIsi"
                                 android:layout_width="match_parent"
                                 android:layout_height="50dp"
-                                android:text=": Neni Apriani"
+                                android:text="Neni Apriani"
                                 android:textColor="@color/colorSc2"
                                 android:textStyle="bold"
                                 android:textSize="20sp"/>
@@ -118,7 +138,7 @@
                                 android:id="@+id/tvNpmIsi"
                                 android:layout_width="match_parent"
                                 android:layout_height="50dp"
-                                android:text=": 1311090136"
+                                android:text="1311090136"
                                 android:textColor="@color/colorSc2"
                                 android:textStyle="bold"
                                 android:textSize="20sp"/>
@@ -126,7 +146,7 @@
                                 android:id="@+id/tvJurusanIsi"
                                 android:layout_width="match_parent"
                                 android:layout_height="50dp"
-                                android:text=": Pendidikan Fisika"
+                                android:text="Pendidikan Fisika"
                                 android:textColor="@color/colorSc2"
                                 android:textStyle="bold"
                                 android:textSize="20sp"/>
@@ -134,31 +154,39 @@
                                 android:id="@+id/tvFakultasIsi"
                                 android:layout_width="match_parent"
                                 android:layout_height="50dp"
-                                android:text=": Tarbiyah dan Keguruan"
+                                android:text="Tarbiyah dan Keguruan"
                                 android:textColor="@color/colorSc2"
                                 android:textStyle="bold"
                                 android:textSize="20sp"/>
                             <com.uncopt.android.widget.text.justify.JustifiedTextView
                                 android:id="@+id/tvUniversitasIsi"
                                 android:layout_width="match_parent"
-                                android:layout_height="25dp"
-                                android:text=": UIN Radin Intan"
+                                android:layout_height="50dp"
+                                android:text="UIN Radin Intan Lampung"
+                                android:textColor="@color/colorSc2"
+                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginBottom="20dp"/>
+                            <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                android:id="@+id/tvPembimbing1Isi"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:text="Dr. Yuberti, M. Pd"
                                 android:textColor="@color/colorSc2"
                                 android:textStyle="bold"
                                 android:textSize="20sp"/>
                             <com.uncopt.android.widget.text.justify.JustifiedTextView
-                                android:id="@+id/tvUniversitasIsi2"
+                                android:id="@+id/tvPembimbing2Isi"
                                 android:layout_width="match_parent"
-                                android:layout_height="60dp"
-                                android:text="  Lampung"
+                                android:layout_height="50dp"
+                                android:text="Sodikin, M. Pd"
                                 android:textColor="@color/colorSc2"
                                 android:textStyle="bold"
                                 android:textSize="20sp"/>
                         </LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
-
-
 
             </android.support.design.widget.AppBarLayout>
 

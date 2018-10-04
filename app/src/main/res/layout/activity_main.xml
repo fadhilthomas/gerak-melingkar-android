@@ -167,7 +167,7 @@
                                         android:id="@+id/tvInfo"
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:text="Info"
+                                        android:text="Biografi"
                                         android:paddingTop="10dp"
                                         android:textAlignment="center"
                                         android:textColor="@color/colorSc2"
@@ -191,7 +191,7 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/microscope"/>
+                            android:src="@drawable/logo"/>
 
                     </LinearLayout>
 

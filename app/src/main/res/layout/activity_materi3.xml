@@ -36,7 +36,7 @@
                     android:id="@+id/tvJudul"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Gerak Melingkar Tidak Beraturan"
+                    android:text="Gerak Melingkar Berubah Beraturan"
                     android:background="#d1eeff"
                     android:textColor="@color/colorSc2"
                     android:textStyle="bold"
@@ -86,7 +86,7 @@
                                         android:id="@+id/tvSoal1"
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:text="Gerak melingkar berubah beraturan memiliki kecepatan sudut berubah beraturan, percepatan sudut tetap. Gerak ini mengalami dua percepatan, yaitu percepatan sentripetal dan percepatan tangensial."
+                                        android:text="Pernahkah kalian naik wahana bermain seperti Roller Coaster? Jika pernah, kalian tentunya merasakan sensasi yang bisa dibilang menakutkan sekaligus seru karena memicu adrenalin kalian terutama saat Roller Coaster melewati lintasan berbentuk lingkaran seperti pada gambar di atas. Ketika Roller Coaster mulai menanjak untuk naik ke lintasan lingkaran, kecepatan Roller Coaster perlahan-lahan berkurang.\n\nAkan tetapi setelah mencapai titik tertinggi dan Roller Coaster mulai bergerak turun, maka kecepatannya semakin lama semakin meningkat. Dalam hal ini ketika Roller Coaster bergerak naik maupun turun, terjadi perubahan kecepatan. Jika perubahan kecepatannya selalu tetap tiap selang waktu tertentu maka bisa dibilangan Roller Coaster melakukan gerak melingkar berubah beraturan (GMBB). Lalu tahukah kalian apa itu GMBB?"
                                         android:textColor="@color/colorSc2"
                                         android:textSize="16sp"
                                         android:paddingStart="10dp"
@@ -126,13 +126,12 @@
                                     android:layout_gravity="center">
 
                                     <com.uncopt.android.widget.text.justify.JustifiedTextView
-                                        android:id="@+id/tvSoal2"
+                                        android:id="@+id/tvSoal4"
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:text="at = R α\na= √(as^2 + √(at^2"
+                                        android:text="Pengertian Gerak Melingkar Berubah Beraturan\n\nKonsep gerak melingkar berubah beraturan (GMBB) tidak jauh berbeda dengan konsep gerak lurus berubah beraturan (GLBB). Dalam gerak lurus, suatu benda dikatakan ber-GLBB jika benda bergerak pada lintasan lurus dengan kecepatan yang berubah-ubah secara teratur atau dengan kata lain percepatan benda tetap atau konstan.\n\nKita tahu bahwa dalam gerak melingkar terdapat dua jenis kecepatan yaitu kecepatan tangensial dan kecepatan anguler serta tiga jenis percepatan, yaitu percepatan tangensial, percepatan sudut (anguler) dan percepatan sentripetal (radial). Berangkat dari konsep gerak lurus berubah beraturan, maka kita dapat menyimpulkan definisi dari gerak melingkar berubah beraturan yaitu sebagai berikut:\n\nGerak melingkar berubah beraturan atau GMBB adalah gerak suatu benda pada lintasan yang berbentuk lingkaran dengan kecepatan sudut dan kecepatan tangensial berubah secara teratur atau dengan kata lain percepatan sudut dan percepatan tangensial benda adalah konstan.\n\nPercepatan pada gerak melingkar, baik percepatan sudut (anguler) maupun percepatan linear (tangensial) merupakan besaran vektor. Sehingga besar/nilai percepatannya dapat berharga positif atau negatif. Jika percepatan anguler dan percepatan tangensial berharga positif itu berarti percepatan benda searah dengan perubahan kecepatan sehingga benda tersebut mengalami gerak melingkar berubah beraturan (GMBB) dipercepat.\n\n"
                                         android:textColor="@color/colorSc2"
                                         android:textSize="16sp"
-                                        android:textAlignment="center"
                                         android:paddingStart="10dp"
                                         android:paddingEnd="10dp"
                                         android:paddingTop="10dp"
@@ -142,16 +141,16 @@
 
                             </android.support.v7.widget.CardView>
 
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:src="@drawable/berubah1"/>
+
                         </LinearLayout>
-                        <com.uncopt.android.widget.text.justify.JustifiedTextView
-                            android:id="@+id/tvBahas2"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Keterangan: \na1 = percepatan tangensial\nR = jari-jari (m)\nα = percepatan sudut (rad/s2)\nas = percepatan sentripetal (m/s2)\na = percepatan total (m/s2)\n\nPercepatan sentripetal berperan untuk mengubah arah gerak partikel. Percepatan tangensial berperan mengubah kecepatan (kelajuan) partikel. Persamaan-persamaan yang digunakan dalam gerak melingkar berubah beraturan sebagai berikut."
-                            android:textColor="@color/colorSc2"
-                            android:textSize="16sp"
-                            android:paddingStart="10dp"
-                            android:paddingEnd="10dp"/>
 
                         <!--3-->
                         <LinearLayout
@@ -181,8 +180,7 @@
                                         android:id="@+id/tvSoal3"
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:text="ωt = ω0 + 1/2 (αt^2)\n\n∆θ = ω0t + 1/2 (αt^2)\n\nθt = θ0 + ω0t + 1/2 (αt^2)\n\nωt^2 = ω0^2 + 2α ∆θ"
-                                        android:textAlignment="center"
+                                        android:text="Sebaliknya, Jika percepatan anguler dan percepatan tangensial berharga negatif itu berarti percepatan benda berlawanan arah dengan perubahan kecepatan sehingga benda tersebut mengalami gerak melingkar berubah beraturan (GMBB) diperlambat. Untuk lebih jelas perhatikan gambar ilustrasi di atas. Dalam gerak melingkar, biasanya jika arah kecepatan atau percepatan berlawanan arah dengan putaran jarum jam, maka bernilai positif dan sebaliknya, jika searah putaran jarum jam maka bernilai negatif.\n\n\nCiri-Ciri Gerak Melingkar Berubah Beraturan\n\nSebelum kalian mempelajari ciri-ciri gerak melingkar berubah beraturan (GMBB) ada baiknya jika kalian mempelajari dahulu ciri-ciri gerak melingkar beraturan (GMB) karena ada beberapa karakteristik yang sama-sama dimiliki oleh kedua jenis gerak tersebut. Jika kalian sudah paham, berikut ini adalah sifat-sifat atau karakteristik gerak melingkar berubah beraturan.\n\n1. Lintasan berbentuk lingkaran\n2. Dalam selang waktu yang sama, besar posisi sudut (θ) berbeda\n3. Nilai/besar dan arah kecepatan linear berubah (v = berubah)\n4. Nilai/besar dan arah kecepatan sudut berubah (ω = berubah)\n5. Nilai/besar percepatan tangensial tetap tetapi arahnya berubah (at = konstan)\n6. Nilai/besar dan arah percepatan sudut tetap (α = konstan)\n7. Nilai/besar percepatan sentripetal berubah tetapi arahnya tetap (as = berubah)\n8. Nilai/besar percepatan total adalah resultan vektor percepatan tangensial dengan vektor percepatan sentripetal [atot¬ = √(at2 + as2)]\n\nPerlu kalian ketahui dari ciri-ciri GMBB nomor 7, yaitu karakteristik percepatan sentripetal adalah nilai/besarnya berubah tetapi arahnya tetap. Kenapa demikian? Karena arah percepatan sentripetal atau percepatan radial selalu menuju ke pusat lingkaran sehingga dititik manapun benda bergerak, arah percepatan sentripetal akan tetap menuju pusat lingkaran meskipun besarnya berubah-ubah.\n"
                                         android:textColor="@color/colorSc2"
                                         android:textSize="16sp"
                                         android:paddingStart="10dp"
@@ -195,16 +193,427 @@
                             </android.support.v7.widget.CardView>
 
                         </LinearLayout>
-                        <com.uncopt.android.widget.text.justify.JustifiedTextView
-                            android:id="@+id/tvBahas3"
+
+                        <!--4-->
+                        <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Keterangan:\nωt = kecepatan sudut saat t (rad/s)\nω0 = kecepatan sudut awal (rad/s)\nα = percepatan sudut (rad/s2)\nt = waktu (s)\n∆θ = perpindahan sudut (rad)\nθt = posisi sudut saat t (rad)\nθ0 = posisi sudut awal (rad)"
-                            android:textColor="@color/colorSc2"
-                            android:textSize="16sp"
-                            android:paddingStart="10dp"
-                            android:paddingEnd="10dp"
-                            android:layout_marginBottom="100dp"/>
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_marginTop="20dp">
+
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                card_view:cardBackgroundColor="#fff"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                card_view:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center">
+
+                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                        android:id="@+id/tvSoal5"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="Rumus-Rumus Pada Gerak Melingkar Berubah Beraturan\n\nRumus GMBB pertama yang penting untuk kalian pahami adalah mengenai percepatan total. Coba kalian baca lagi karakteristik gerak melingkar berubah beraturan yang terakhir. Di dalam gerak melingkar, sebenarnya terdapat dua percepatan linear yaitu percepatan tangensial yang arahnya menyinggung lingkaran dan percepatan sentripetal (radial) yang arahnya menuju pusat lingkaran.\n\nNamun biasanya orang menyebut percepatan tangensial sebagai percepatan linear sehingga percepatan linear terkesan berbeda dengan percepatan sentripetal padahal sebenarnya sama saja. Lalu masih ingatkah kalian mengenai cara menentukan resultan 2 vektor yang saling tegak lurus? Jika masih ingat, itu modal kalian untuk memahami percepatan total GMBB. Perhatikan gambar berikut ini."
+                                        android:textColor="@color/colorSc2"
+                                        android:textSize="16sp"
+                                        android:paddingStart="10dp"
+                                        android:paddingEnd="10dp"
+                                        android:paddingTop="10dp"
+                                        android:paddingBottom="10dp"/>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:src="@drawable/berubah2"/>
+
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                card_view:cardBackgroundColor="#fff"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                card_view:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center">
+
+                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                        android:id="@+id/tvSoal6"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="Arah percepatan tangensial (at) menyinggung lingkaran atau tegak lurus dengan jari-jari lingkaran (R). Sedangkan percepatan sentripetal (as) arahnya menuju pusat lingkaran atau berhimpit dengan jari-jari R. Sehingga vektor percepatan tangensial dan percepatan sentripetal saling tegak lurus. Oleh karena itu, besar percepatan total (atot) dirumuskan sebagai berikut."
+                                        android:textColor="@color/colorSc2"
+                                        android:textSize="16sp"
+                                        android:paddingStart="10dp"
+                                        android:paddingEnd="10dp"
+                                        android:paddingTop="10dp"
+                                        android:paddingBottom="10dp"/>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:src="@drawable/berubah3"/>
+
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                card_view:cardBackgroundColor="#fff"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                card_view:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center">
+
+                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                        android:id="@+id/tvSoal7"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="Sedangkan arah percepatan total gerak melingkar berubah beraturan terhadap arah radial, yaitu θ dapat dihitung dengan menggunakan persamaan sebagai berikut."
+                                        android:textColor="@color/colorSc2"
+                                        android:textSize="16sp"
+                                        android:paddingStart="10dp"
+                                        android:paddingEnd="10dp"
+                                        android:paddingTop="10dp"
+                                        android:paddingBottom="10dp"/>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:src="@drawable/berubah4"/>
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:src="@drawable/berubah5"/>
+
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                card_view:cardBackgroundColor="#fff"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                card_view:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center">
+
+                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                        android:id="@+id/tvSoal8"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="Karena pada dasarnya, konsep GMBB itu sama dengan konsep GLBB, maka kita dapat menurunkan rumus-rumus besaran fisika pada gerak melingkar berubah beraturan dengan cara mengganti besaran-besaran linear pada gerak lurus berubah beraturan dengan besaran-besaran sudut. Berikut ini adalah tabel perbandingan rumus-rumus besaran yang berlaku pada GLBB dan GMBB."
+                                        android:textColor="@color/colorSc2"
+                                        android:textSize="16sp"
+                                        android:paddingStart="10dp"
+                                        android:paddingEnd="10dp"
+                                        android:paddingTop="10dp"
+                                        android:paddingBottom="10dp"/>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                card_view:cardBackgroundColor="#fff"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                card_view:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center">
+
+                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                        android:id="@+id/tvSoal9"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="Analogi Persamaan Gerak Melingkar Berubah Beraturan dengan Gerak Lurus Berubah Beraturan"
+                                        android:textColor="@color/colorSc2"
+                                        android:textSize="16sp"
+                                        android:paddingStart="10dp"
+                                        android:paddingEnd="10dp"
+                                        android:paddingTop="10dp"
+                                        android:paddingBottom="10dp"/>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:src="@drawable/berubah6"/>
+
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                card_view:cardBackgroundColor="#fff"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                card_view:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center">
+
+                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                        android:id="@+id/tvSoal10"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="Jika kalian merasa kesuliatan untuk menghafal kedua rumus besaran pada GLBB dan GMBB, kalian cukup mengingat persamaan besaran pada GLBB saja. Karena persamaan pada GMBB itu sama persis dengan GLBB, hanya saja besaran linearnya tinggal kita ganti dengan besaran sudut, seperti besaran perpindahan (s) diganti dengan perubahan/posisi sudut (θ), kecepatan (v) diganti kecepatan sudut (ω) dan percepatan (a) kita ganti dengan percepatan sudut (α).\n\n\nMacam-Macam Grafik pada Gerak Melingkar Berubah Beraturan\n\nJenis-jenis grafik pada GMBB sama saja dengan grafik pada GMB, hanya saja pada GMBB ada grafik GMBB dipercepat dengan grafik GMBB diperlambat. Grafik-grafik pada GMBB diantaranya grafik hubungan panjang lintasan terhadap waktu (grafik s-t), grafik posisi sudut terhadap waktu (grafik θ-t), grafik kecepatan linear terhadap waktu (grafik v-t), grafik kecepatan sudut terhadap waktu (grafik ω-t), grafik percepatan tangensial terhadap waktu (grafik at-t) dan grafik percepatan sudut terhadap waktu (grafik α-t).\n\nTetapi kalian perlu ingat ya bahwa grafik pada gerak melingkar baik itu gerak melingkar beraturan (GMB) maupun gerak melingkar berubah beraturan (GMBB) hanya mendeskripsikan nilai besaran saja bukan menggambarkan arah besaran. Berikut ini adalah grafik-grafik pada gerak melingkar berubah beraturan.\n\n1 Grafik s-t dan Grafik θ-t pada Gerak Melingkar Berubah Beraturan"
+                                        android:textColor="@color/colorSc2"
+                                        android:textSize="16sp"
+                                        android:paddingStart="10dp"
+                                        android:paddingEnd="10dp"
+                                        android:paddingTop="10dp"
+                                        android:paddingBottom="10dp"/>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                card_view:cardBackgroundColor="#fff"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                card_view:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center">
+
+                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                        android:id="@+id/tvSoal11"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="Macam-Macam Grafik pada Gerak Melingkar Berubah Beraturan\n\nJenis-jenis grafik pada GMBB sama saja dengan grafik pada GMB, hanya saja pada GMBB ada grafik GMBB dipercepat dengan grafik GMBB diperlambat. Grafik-grafik pada GMBB diantaranya grafik hubungan panjang lintasan terhadap waktu (grafik s-t), grafik posisi sudut terhadap waktu (grafik θ-t), grafik kecepatan linear terhadap waktu (grafik v-t), grafik kecepatan sudut terhadap waktu (grafik ω-t), grafik percepatan tangensial terhadap waktu (grafik at-t) dan grafik percepatan sudut terhadap waktu (grafik α-t).\n\nTetapi kalian perlu ingat ya bahwa grafik pada gerak melingkar baik itu gerak melingkar beraturan (GMB) maupun gerak melingkar berubah beraturan (GMBB) hanya mendeskripsikan nilai besaran saja bukan menggambarkan arah besaran. Berikut ini adalah grafik-grafik pada gerak melingkar berubah beraturan.\n\n1. Grafik s-t dan Grafik θ-t pada Gerak Melingkar Berubah Beraturan"
+                                        android:textColor="@color/colorSc2"
+                                        android:textSize="16sp"
+                                        android:paddingStart="10dp"
+                                        android:paddingEnd="10dp"
+                                        android:paddingTop="10dp"
+                                        android:paddingBottom="10dp"/>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:src="@drawable/berubah7"/>
+
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                card_view:cardBackgroundColor="#fff"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                card_view:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center">
+
+                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                        android:id="@+id/tvSoal12"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="Pada gerak melingkar berubah beraturan dipercepat, bentuk kurva grafik s-t dan grafik θ-t adalah parabola terbuka ke atas. Sedangkan pada gerak melingkar berubah beraturan diperlambat, grafik s-t dan grafik θ-t bentuk kurvanya adalah parabola terbuka ke bawah. Bentuk kurva ini mirip dengan kurva pada grafik s-t gerak lurus berubah beraturan.\n\n2. Grafik v-t dan Grafik ω-t pada Gerak Melingkar Berubah Beraturan"
+                                        android:textColor="@color/colorSc2"
+                                        android:textSize="16sp"
+                                        android:paddingStart="10dp"
+                                        android:paddingEnd="10dp"
+                                        android:paddingTop="10dp"
+                                        android:paddingBottom="10dp"/>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:src="@drawable/berubah8"/>
+
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                card_view:cardBackgroundColor="#fff"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                card_view:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center">
+
+                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                        android:id="@+id/tvSoal13"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="Pada gerak melingkar berubah beraturan dipercepat, bentuk kurva grafik v-t dan grafik ω-t adalah linear naik, yang mengartikan bahwa kecepatan benda semakin meningkat. Sedangkan pada gerak melingkar berubah beraturan diperlambat, grafik v-t dan grafik ω-t bentuk kurvanya adalah linear turun sehingga kecepatan benda semakin lama semakin menurun.\n\n3. Grafik at-t dan Grafik α-t pada Gerak Melingkar Berubah Beraturan"
+                                        android:textColor="@color/colorSc2"
+                                        android:textSize="16sp"
+                                        android:paddingStart="10dp"
+                                        android:paddingEnd="10dp"
+                                        android:paddingTop="10dp"
+                                        android:paddingBottom="10dp"/>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:src="@drawable/berubah9"/>
+
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                card_view:cardBackgroundColor="#fff"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                card_view:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center">
+
+                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                        android:id="@+id/tvSoal14"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="Karena gerak melingkar berubah beraturan memiliki nilai percepatan yang tetap maka bentuk kurva percepatan tangensial dan percepatan sudut adalah linear mendatar sejajar sumbu t yang berarti bahwa besar percepatan benda selalu konstan setiap saat.\n\n\nContoh Soal GMBB dan Pembahasannya\n\nSebuah Roller Coaster bergerak melewati rel berbentuk lingkaran. Di titik teratas kecepatannya 10 rad/s sedangkan di titik paling bawah, kecepatannya 40 rad/s. waktu yang dibutuhkan untuk berpindah dari titik atas ke titik bawah adalah 2 sekon, tentukan:\n\na) percepatan sudut\nb) percepatan sudut saat t = 1 sekon\nc) perpindahan sudut saat t = 1 sekon"
+                                        android:textColor="@color/colorSc2"
+                                        android:textSize="16sp"
+                                        android:paddingStart="10dp"
+                                        android:paddingEnd="10dp"
+                                        android:paddingTop="10dp"
+                                        android:paddingBottom="10dp"/>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:src="@drawable/berubah10"/>
+
+                        </LinearLayout>
 
                     </LinearLayout>
 

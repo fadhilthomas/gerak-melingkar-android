@@ -11,23 +11,17 @@ import com.wibudev.gerakmelingkar.R;
 
 public class TutorialActivity extends AppCompatActivity {
 
-    private JustifiedTextView tvTutorial;
-    private JustifiedTextView tvDaftar;
-    private JustifiedTextView tvDaftar2;
-    private JustifiedTextView tvDaftar3;
-    private JustifiedTextView tvDaftar4;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tutorial);
         Typeface custom_font = Typeface.createFromAsset(getAssets(),  "fonts/font.ttf");
         Typeface custom_font_bold = Typeface.createFromAsset(getAssets(),  "fonts/fontBold.ttf");
-        tvTutorial= findViewById(R.id.tvDaftarPustaka);
-        tvDaftar = findViewById(R.id.tvDaftar);
-        tvDaftar2 = findViewById(R.id.tvDaftar2);
-        tvDaftar3 = findViewById(R.id.tvDaftar3);
-        tvDaftar4 = findViewById(R.id.tvDaftar4);
+        JustifiedTextView tvTutorial = findViewById(R.id.tvDaftarPustaka);
+        JustifiedTextView tvDaftar = findViewById(R.id.tvDaftar);
+        JustifiedTextView tvDaftar2 = findViewById(R.id.tvDaftar2);
+        JustifiedTextView tvDaftar3 = findViewById(R.id.tvDaftar3);
+        JustifiedTextView tvDaftar4 = findViewById(R.id.tvDaftar4);
         tvTutorial.setTypeface(custom_font_bold);
         tvDaftar2.setTypeface(custom_font);
         tvDaftar3.setTypeface(custom_font);

@@ -24,8 +24,6 @@ public class EvaluasiActivity extends AppCompatActivity {
     private int quid = 0;
     private Question currentQuestion;
     private JustifiedTextView tvQuestion;
-    private TextView tvEvaluasiMenu;
-    private TextView tvEvaluasiNext;
     private RadioButton rda;
     private RadioButton rdb;
     private RadioButton rdc;
@@ -40,8 +38,8 @@ public class EvaluasiActivity extends AppCompatActivity {
         Collections.shuffle(questionList);
         currentQuestion = questionList.get(quid);
         tvQuestion = findViewById(R.id.question);
-        tvEvaluasiMenu = findViewById(R.id.tvEvaluasiMenu);
-        tvEvaluasiNext = findViewById(R.id.tvEvaluasiNext);
+        TextView tvEvaluasiMenu = findViewById(R.id.tvEvaluasiMenu);
+        TextView tvEvaluasiNext = findViewById(R.id.tvEvaluasiNext);
         Typeface custom_font = Typeface.createFromAsset(getAssets(),  "fonts/font.ttf");
 
         tvQuestion.setTypeface(custom_font);

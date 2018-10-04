@@ -12,19 +12,15 @@ import com.wibudev.gerakmelingkar.R;
 
 public class EvaluasiAwalActivity extends AppCompatActivity {
 
-    private JustifiedTextView tvMenu;
-    private JustifiedTextView tvJudul;
-    private TextView tvMenu2;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_evaluasi_awal);
         Typeface custom_font = Typeface.createFromAsset(getAssets(),  "fonts/font.ttf");
         Typeface custom_font_bold = Typeface.createFromAsset(getAssets(),  "fonts/fontBold.ttf");
-        tvJudul = findViewById(R.id.tvJudul);
-        tvMenu = findViewById(R.id.tvMenu);
-        tvMenu2 = findViewById(R.id.tvMenu2);
+        JustifiedTextView tvJudul = findViewById(R.id.tvJudul);
+        JustifiedTextView tvMenu = findViewById(R.id.tvMenu);
+        TextView tvMenu2 = findViewById(R.id.tvMenu2);
         tvMenu2.setTypeface(custom_font);
         tvMenu.setTypeface(custom_font);
         tvJudul.setTypeface(custom_font_bold);

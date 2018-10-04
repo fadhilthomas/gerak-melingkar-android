@@ -11,27 +11,19 @@ import com.wibudev.gerakmelingkar.R;
 
 public class PendahuluanActivity extends AppCompatActivity {
 
-    private JustifiedTextView tvJudul;
-    private JustifiedTextView tvDaftar;
-    private JustifiedTextView tvDaftar2;
-    private JustifiedTextView tvDaftar3;
-    private JustifiedTextView tvDaftar4;
-    private JustifiedTextView tvDaftar5;
-    private JustifiedTextView tvDaftar6;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pendahuluan);
         Typeface custom_font = Typeface.createFromAsset(getAssets(),  "fonts/font.ttf");
         Typeface custom_font_bold = Typeface.createFromAsset(getAssets(),  "fonts/fontBold.ttf");
-        tvJudul = findViewById(R.id.tvJudul);
-        tvDaftar = findViewById(R.id.tvDaftar);
-        tvDaftar2 = findViewById(R.id.tvDaftar2);
-        tvDaftar3 = findViewById(R.id.tvDaftar3);
-        tvDaftar4 = findViewById(R.id.tvDaftar4);
-        tvDaftar5 = findViewById(R.id.tvDaftar5);
-        tvDaftar6 = findViewById(R.id.tvDaftar6);
+        JustifiedTextView tvJudul = findViewById(R.id.tvJudul);
+        JustifiedTextView tvDaftar = findViewById(R.id.tvDaftar);
+        JustifiedTextView tvDaftar2 = findViewById(R.id.tvDaftar2);
+        JustifiedTextView tvDaftar3 = findViewById(R.id.tvDaftar3);
+        JustifiedTextView tvDaftar4 = findViewById(R.id.tvDaftar4);
+        JustifiedTextView tvDaftar5 = findViewById(R.id.tvDaftar5);
+        JustifiedTextView tvDaftar6 = findViewById(R.id.tvDaftar6);
         tvJudul.setTypeface(custom_font_bold);
         tvDaftar2.setTypeface(custom_font);
         tvDaftar3.setTypeface(custom_font_bold);

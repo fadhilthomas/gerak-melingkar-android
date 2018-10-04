@@ -16,11 +16,6 @@ import com.wibudev.gerakmelingkar.R;
 public class VideoActivity extends AppCompatActivity {
 
     private VideoView vid;
-    private TextView tvJudul;
-    private TextView tvVideo1;
-    private TextView tvVideo2;
-    private TextView tvPlay;
-    private TextView tvPlay2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,11 +24,11 @@ public class VideoActivity extends AppCompatActivity {
         vid = findViewById(R.id.videoView);
         Typeface custom_font = Typeface.createFromAsset(getAssets(),  "fonts/font.ttf");
         Typeface custom_font_bold = Typeface.createFromAsset(getAssets(),  "fonts/fontBold.ttf");
-        tvJudul = findViewById(R.id.tvJudul);
-        tvVideo1 = findViewById(R.id.tvVideo1);
-        tvVideo2 = findViewById(R.id.tvVideo2);
-        tvPlay = findViewById(R.id.tvPlay1);
-        tvPlay2 = findViewById(R.id.tvPlay2);
+        TextView tvJudul = findViewById(R.id.tvJudul);
+        TextView tvVideo1 = findViewById(R.id.tvVideo1);
+        TextView tvVideo2 = findViewById(R.id.tvVideo2);
+        TextView tvPlay = findViewById(R.id.tvPlay1);
+        TextView tvPlay2 = findViewById(R.id.tvPlay2);
         tvJudul.setTypeface(custom_font_bold);
         tvVideo1.setTypeface(custom_font);
         tvVideo2.setTypeface(custom_font);

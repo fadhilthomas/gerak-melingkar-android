@@ -176,33 +176,43 @@
                                     android:orientation="vertical"
                                     android:layout_gravity="center">
 
-                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
-                                        android:id="@+id/tvSoal3"
+                                    <ImageView
                                         android:layout_width="match_parent"
-                                        android:layout_height="match_parent"
-                                        android:text="f =n/t\nT=t/n"
-                                        android:textAlignment="center"
-                                        android:textColor="@color/colorSc2"
-                                        android:textSize="16sp"
-                                        android:paddingStart="10dp"
-                                        android:paddingEnd="10dp"
-                                        android:paddingTop="10dp"
-                                        android:paddingBottom="10dp"/>
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/melingkar1"
+                                        android:padding="10dp"/>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                card_view:cardBackgroundColor="#fff"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                card_view:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center">
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/melingkar1a"
+                                        android:padding="10dp"/>
 
                                 </LinearLayout>
 
                             </android.support.v7.widget.CardView>
 
                         </LinearLayout>
-                        <com.uncopt.android.widget.text.justify.JustifiedTextView
-                            android:id="@+id/tvBahas3"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Di mana:\nn : banyak putaran\nt : waktu (s)\n1 putaran = 2π rad\n1 rpm (rotasi per menit) = π/15\n\nPeriode dan frekuensi dihubungkan dengan\nT = 1/f\n\nDi mana :\nT : Periode (s)\nf : frekuensi (Hz)"
-                            android:textColor="@color/colorSc2"
-                            android:textSize="16sp"
-                            android:paddingStart="10dp"
-                            android:paddingEnd="10dp"/>
 
                         <!--4-->
                         <LinearLayout
@@ -338,18 +348,11 @@
                                     android:orientation="vertical"
                                     android:layout_gravity="center">
 
-                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
-                                        android:id="@+id/tvSoal5"
+                                    <ImageView
                                         android:layout_width="match_parent"
-                                        android:layout_height="match_parent"
-                                        android:text="ω = v/r"
-                                        android:textColor="@color/colorSc2"
-                                        android:textSize="16sp"
-                                        android:paddingStart="10dp"
-                                        android:paddingEnd="10dp"
-                                        android:paddingTop="10dp"
-                                        android:paddingBottom="10dp"
-                                        android:textAlignment="center"/>
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/melingkar2"
+                                        android:padding="10dp"/>
 
                                 </LinearLayout>
 
@@ -357,11 +360,10 @@
 
                         </LinearLayout>
                         <com.uncopt.android.widget.text.justify.JustifiedTextView
-                            
                             android:id="@+id/tvBahas6"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Di mana:\nv : kecepatan linier (m/s)\nr : jari-jari lintasan (m)\n\nNilai kecepatan sudut dapat dicari jika diketahui frekuensi dan periodenya. Untuk mencari nilai kecepatan sudut (ω) dipakai rumus"
+                            android:text="Keterangan:\nv : kecepatan linier (m/s)\nr : jari-jari lintasan (m)\n\nNilai kecepatan sudut dapat dicari jika diketahui frekuensi dan periodenya. Untuk mencari nilai kecepatan sudut (ω) dipakai rumus"
                             android:textColor="@color/colorSc2"
                             android:textSize="16sp"
                             android:paddingStart="10dp"
@@ -391,18 +393,11 @@
                                     android:orientation="vertical"
                                     android:layout_gravity="center">
 
-                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
-                                        android:id="@+id/tvSoal6"
+                                    <ImageView
                                         android:layout_width="match_parent"
-                                        android:layout_height="match_parent"
-                                        android:text="ω = 2πf\natau\nω = 2π/T"
-                                        android:textColor="@color/colorSc2"
-                                        android:textSize="16sp"
-                                        android:paddingStart="10dp"
-                                        android:paddingEnd="10dp"
-                                        android:paddingTop="10dp"
-                                        android:paddingBottom="10dp"
-                                        android:textAlignment="center"/>
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/melingkar3"
+                                        android:padding="10dp"/>
 
                                 </LinearLayout>
 
@@ -413,7 +408,7 @@
                             android:id="@+id/tvBahas7"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Di mana:\nω : kecepatan sudut (rad/s)\nπ : 22/7 atau 3,14\n\nPada gerak melingkar terdapat suatu percepatan pada objek yang mengarah ke pusat titik lintasan yang dinamakan percepatan sentripetal. Percepatan sentripetal arahnya tegak lurus dengan arah kecepatan linier. Perhatikan gambar dibawah ini"
+                            android:text="Keterangan:\nω : kecepatan sudut (rad/s)\nπ : 22/7 atau 3,14\n\nPada gerak melingkar terdapat suatu percepatan pada objek yang mengarah ke pusat titik lintasan yang dinamakan percepatan sentripetal. Percepatan sentripetal arahnya tegak lurus dengan arah kecepatan linier. Perhatikan gambar dibawah ini"
                             android:textColor="@color/colorSc2"
                             android:textSize="16sp"
                             android:paddingStart="10dp"
@@ -500,18 +495,11 @@
                                     android:orientation="vertical"
                                     android:layout_gravity="center">
 
-                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
-                                        android:id="@+id/tvSoal7"
+                                    <ImageView
                                         android:layout_width="match_parent"
-                                        android:layout_height="match_parent"
-                                        android:text="as = ω^2 . r = v ^ 2 / r"
-                                        android:textColor="@color/colorSc2"
-                                        android:textSize="16sp"
-                                        android:paddingStart="10dp"
-                                        android:paddingEnd="10dp"
-                                        android:paddingTop="10dp"
-                                        android:textAlignment="center"
-                                        android:paddingBottom="10dp"/>
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/melingkar4"
+                                        android:padding="10dp"/>
 
                                 </LinearLayout>
 
@@ -522,7 +510,7 @@
                             android:id="@+id/tvBahas9"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Di mana:\nas : percepatan sudut (m/s2)\n\nPercepatan sentripetal (as) menyebabkan timbulnya gaya sentripetal (Fs) yang juga mengarah kepusat titik lintasan. Gaya sentripetal harus ada agar objek tetap bergerak dalam lintasannya (lingkaran)"
+                            android:text="Keterangan:\nas : percepatan sudut (m/s2)\n\nPercepatan sentripetal (as) menyebabkan timbulnya gaya sentripetal (Fs) yang juga mengarah kepusat titik lintasan. Gaya sentripetal harus ada agar objek tetap bergerak dalam lintasannya (lingkaran)"
                             android:textColor="@color/colorSc2"
                             android:textSize="16sp"
                             android:paddingStart="10dp"
@@ -622,7 +610,7 @@
                                         android:id="@+id/tvSub4"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="Di mana: \nFs : gaya sentripetal (N) \nM : massa benda (m)"
+                                        android:text="Keterangan: \nFs : gaya sentripetal (N) \nM : massa benda (m)"
                                         android:textSize="16sp"
                                         android:paddingStart="10dp"
                                         android:paddingEnd="10dp"
@@ -726,18 +714,11 @@
                                     android:orientation="vertical"
                                     android:layout_gravity="center">
 
-                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
-                                        android:id="@+id/tvSoal8"
+                                    <ImageView
                                         android:layout_width="match_parent"
-                                        android:layout_height="match_parent"
-                                        android:text="v = √gr"
-                                        android:textColor="@color/colorSc2"
-                                        android:textSize="16sp"
-                                        android:paddingStart="10dp"
-                                        android:paddingEnd="10dp"
-                                        android:paddingTop="10dp"
-                                        android:textAlignment="center"
-                                        android:paddingBottom="10dp"/>
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/melingkar6"
+                                        android:padding="10dp"/>
 
                                 </LinearLayout>
 

@@ -11,23 +11,17 @@ import com.wibudev.gerakmelingkar.R;
 
 public class MateriActivity extends AppCompatActivity {
 
-    private TextView tvJudul;
-    private TextView tvMateri;
-    private TextView tvMateri2;
-    private TextView tvMateri3;
-    private TextView tvMateri4;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_materi);
         Typeface custom_font = Typeface.createFromAsset(getAssets(),  "fonts/font.ttf");
         Typeface custom_font_bold = Typeface.createFromAsset(getAssets(),  "fonts/fontBold.ttf");
-        tvJudul = findViewById(R.id.tvJudul);
-        tvMateri = findViewById(R.id.tvMateri);
-        tvMateri2 = findViewById(R.id.tvMateri2);
-        tvMateri3 = findViewById(R.id.tvMateri3);
-        tvMateri4 = findViewById(R.id.tvMateri4);
+        TextView tvJudul = findViewById(R.id.tvJudul);
+        TextView tvMateri = findViewById(R.id.tvMateri);
+        TextView tvMateri2 = findViewById(R.id.tvMateri2);
+        TextView tvMateri3 = findViewById(R.id.tvMateri3);
+        TextView tvMateri4 = findViewById(R.id.tvMateri4);
         tvJudul.setTypeface(custom_font_bold);
         tvMateri.setTypeface(custom_font);
         tvMateri2.setTypeface(custom_font);
