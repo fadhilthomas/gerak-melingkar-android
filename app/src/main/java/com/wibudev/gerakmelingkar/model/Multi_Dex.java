@@ -1,4 +1,4 @@
-package com.lappungdev.rsa.model;
+package com.wibudev.gerakmelingkar.model;
 
 import android.app.Application;
 import android.content.Context;

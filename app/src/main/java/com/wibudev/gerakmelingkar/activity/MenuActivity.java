@@ -31,15 +31,13 @@ public class MenuActivity extends AppCompatActivity {
     }
 
     public void menuUtama(View view) {
-        startActivity(new Intent(this, MainActivity.class));
+        Intent intent = new Intent(this, MainActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
     }
 
     public void pendahuluan(View view) {
         startActivity(new Intent(this, PendahuluanActivity.class));
-    }
-
-    public void video(View view) {
-        startActivity(new Intent(this, VideoActivity.class));
     }
 
     public void evaluasi(View view) {
