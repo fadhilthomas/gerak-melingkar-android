@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Buku Elektronik</string>
+    <string name="app_name">RSA</string>
+    <string name="enkripsi">Enkripsi</string>
+    <string name="dekripsi">Dekripsi</string>
+    <string name="plain">Plain Teks</string>
+    <string name="cipher">Cipher Teks</string>
 </resources>

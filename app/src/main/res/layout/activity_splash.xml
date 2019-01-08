@@ -14,7 +14,7 @@
             android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:src="@drawable/motion"
+            android:src="@drawable/logo"
             android:id="@+id/tvJudul"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true" />
